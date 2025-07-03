@@ -1,0 +1,14 @@
+{
+  "name": "aksh-music-player",
+  "version": "1.0.0",
+  "description": "A desktop music player made by Akshita",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Akshita Vasu",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^37.1.0"
+  }
+}

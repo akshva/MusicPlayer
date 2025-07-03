@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Aksh Music Player</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/d7c9a14aad.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="music-player">
+      
+      <nav>
+        <div class="circle"><i class="fa-solid fa-angle-left"></i></div>
+        <div class="circle" id="menuToggle"><i class="fa-solid fa-bars"></i></div>
+      </nav>
+
+     
+      <div class="dropdown-playlist hidden" id="dropdownPlaylist">
+        <h4>Playlist</h4>
+        <div id="playlist"></div>
+      </div>
+
+      <img src="media/468-thumbnail.png" class="song-img" />
+      <h1>Perfect</h1>
+      <p>Ed Sheeran</p>
+
+      <audio id="song">
+        <source src="media/ytmp3free.cc_ed-sheeran-perfect-official-music-video-youtubemp3free.org.mp3" type="audio/mpeg" />
+      </audio>
+
+      <input type="range" value="0" id="progress" />
+
+      
+      <div class="controls">
+        <div id="prev"><i class="fa-solid fa-backward"></i></div>
+        <div id="playPause"><i class="fa-solid fa-play" id="ctrlIcon"></i></div>
+        <div id="next"><i class="fa-solid fa-forward"></i></div>
+      </div>
+
+      
+      <div class="volume-container">
+        <i class="fa-solid fa-volume-high"></i>
+        <input type="range" id="volumeSlider" min="0" max="1" step="0.01" value="1" />
+      </div>
+    </div>
+  </div>
+<script type="module" src="script.js"></script>
+
+</body>
+</html>
