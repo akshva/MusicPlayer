@@ -27,8 +27,4 @@ A custom desktop music player built using **HTML**, **CSS**, **JavaScript**, and
 - **Backend:** Node.js (Electron)
 - **Build Tool:** Electron Forge / Electron Packager
 
-## 📦 How to Run Locally
 
-1. **Install dependencies**  
-   ```bash
-   npm install
