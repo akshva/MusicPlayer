@@ -9,10 +9,6 @@ A custom desktop music player built using **HTML**, **CSS**, **JavaScript**, and
 - ⚡ Built as a cross-platform desktop app using Electron
 - 🖥 Works offline – no internet required
 
-## 📸 Screenshots
-
-> Screenshots of the app UI
-
 ### 🖼 Now Playing Screen
 
 ![Now Playing](screenshots/now-playing.png)
